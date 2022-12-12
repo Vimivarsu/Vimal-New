@@ -1,11 +1,10 @@
-
 import './App.css';
-import ForgetPassword from './components/ForgetPassword';
+import FilterPage from './Project/FilterPage';
 
 function App() {
   return (
     <div>
-    <ForgetPassword/>
+    <FilterPage></FilterPage>
     </div>
   )
 }
