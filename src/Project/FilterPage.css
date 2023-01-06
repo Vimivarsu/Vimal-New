@@ -1,4 +1,4 @@
-#background{
+#vimvarbackground{
     position: absolute;
     top: 0%;
     left: 5%;
@@ -6,14 +6,14 @@
     width: 90%;
     height: 100%;
 }
-.filter{
+.varfilter{
     position: absolute;
     top:3%;
     left:47%;
     text-align: center;
     font-family: kurale;
 }
-.Look{
+.varlook{
     position: absolute;
     top:15%;
     left:15%;
@@ -21,21 +21,27 @@
     font-family: kurale;
     font-size: x-large;
 }
-#buy{
+#varbuy{
     position: absolute;
     top: 28%;
     left: 25%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
+    cursor: pointer;
 }
-#sell{
+#varsell{
     position: absolute;
     top: 28%;
     left: 35%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
+    cursor: pointer;
 }
-.Pro{
+.varpro{
     position: absolute;
     top:35%;
     left:15%;
@@ -43,35 +49,43 @@
     font-family: kurale;
     font-size: x-large;
 }
-#p1{
+#varp1{
     position: absolute;
     top: 48%;
     left: 25%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-#p2{
+#varp2{
     position: absolute;
     top: 48%;
     left: 40%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-#p3{
+#varp3{
     position: absolute;
     top: 48%;
     left: 55%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-#p4{
+#varp4{
     position: absolute;
     top: 48%;
     left: 70%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-.Price{
+.varPrice{
     position: absolute;
     top:55%;
     left:15%;
@@ -79,13 +93,14 @@
     font-family: kurale;
     font-size: x-large;
 }
-#pri{
+#varpri{
     position: absolute;
     top: 68%;
     left: 25%;
     right: 50%;
+    background-color: rgb(185, 223, 238);
 }
-.BedRoom{
+.varBedRoom{
     position: absolute;
     top:75%;
     left:15%;
@@ -93,38 +108,58 @@
     font-family: kurale;
     font-size: x-large;
 }
-#be1{
+#varbe1{
     position: absolute;
     top: 88%;
     left: 25%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-#be2{
+#varbe2{
     position: absolute;
     top: 88%;
     left: 40%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-#be3{
+#varbe3{
     position: absolute;
     top: 88%;
     left: 55%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-#be4{
+#varbe4{
     position: absolute;
     top: 88%;
     left: 70%;
     font-family: Lato;
     font-size: large;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
 }
-#reset{
+#varreset{
     position: absolute;
     top: 6%;
     left: 15%;
     font-size: large;
     font-family: Lato;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
+    cursor: pointer;
+}
+.varclose-button{
+    position: absolute;
+    top: 6%;
+    right: 15%;
+    font-size: 100%;
+    background-color: rgb(185, 223, 238);
+    border-color: aliceblue;
+    cursor: pointer;
 }

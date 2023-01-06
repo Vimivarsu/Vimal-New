@@ -25,7 +25,7 @@ export default function ButtonAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           AMMA
           </Typography>
-          <Typography><Link href="/Login" sx={{color:"black"}}>Login</Link></Typography>
+          <Typography><Link to="/Home" sx={{color:"black"}}>Login</Link></Typography>
         </Toolbar>
       </AppBar>
     </Box>
